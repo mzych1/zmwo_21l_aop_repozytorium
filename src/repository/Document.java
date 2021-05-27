@@ -28,31 +28,17 @@ public class Document implements Serializable
 		StringBuilder content = new StringBuilder();
 		BufferedReader input = null;
 		String line = null;
-		try
+		
+		// modyfikacje na potrzeby zadania 5
+		input = new BufferedReader(new FileReader(name));
+		while ((line = input.readLine()) != null)
 		{
-			input = new BufferedReader(new FileReader(name));
-			while ((line = input.readLine()) != null)
-			{
-				content.append(line);
-				content.append(System.getProperty("line.separator"));
-			}
+			content.append(line);
+			content.append(System.getProperty("line.separator"));
 		}
-		catch (IOException e)
-		{
-			e.printStackTrace();
-		}
-		finally{
-			try
-			{
-				if(input != null) {
-					input.close();
-				}
-			}
-			catch (IOException e)
-			{
-				e.printStackTrace();
-			}
-		}
+			if(input != null) {
+				input.close();
+			}		
 		return content.toString();
 	}
 	

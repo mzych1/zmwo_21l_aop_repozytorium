@@ -1,39 +1,42 @@
-Klasa: class repository.Task; Metoda: getId; Zwrócony wynik: 1; Czas wykonania [ms]: 0; Argumenty: Brak
-Klasa: class repository.Project; Metoda: addTask; Zwrócony wynik: null; Czas wykonania [ms]: 1; Argumenty: 1. Typ: class repository.Task, Nazwa: task, Wartoœæ: repository.Task@64729b1e; 
-Klasa: class repository.Task; Metoda: getId; Zwrócony wynik: 2; Czas wykonania [ms]: 0; Argumenty: Brak
-Klasa: class repository.Project; Metoda: addTask; Zwrócony wynik: null; Czas wykonania [ms]: 1; Argumenty: 1. Typ: class repository.Task, Nazwa: task, Wartoœæ: repository.Task@10bbd20a; 
-Klasa: class repository.Task; Metoda: getId; Zwrócony wynik: 3; Czas wykonania [ms]: 0; Argumenty: Brak
-Klasa: class repository.Project; Metoda: addTask; Zwrócony wynik: null; Czas wykonania [ms]: 0; Argumenty: 1. Typ: class repository.Task, Nazwa: task, Wartoœæ: repository.Task@48503868; 
+Klasa: class repository.Task$Status; Metoda: values; Zwrócony wynik: [Lrepository.Task$Status;@2f943d71; Czas wykonania [ms]: 0; Argumenty: Brak
 Klasa: class repository.Project; Metoda: getName; Zwrócony wynik: project1; Czas wykonania [ms]: 0; Argumenty: Brak
-Klasa: class repository.Repository; Metoda: addProject; Zwrócony wynik: null; Czas wykonania [ms]: 19; Argumenty: 1. Typ: class repository.Project, Nazwa: project, Wartoœæ: repository.Project@ea1a8d5; 
 Klasa: class repository.Project; Metoda: getName; Zwrócony wynik: Project2; Czas wykonania [ms]: 0; Argumenty: Brak
-Klasa: class repository.Repository; Metoda: addProject; Zwrócony wynik: null; Czas wykonania [ms]: 2; Argumenty: 1. Typ: class repository.Project, Nazwa: project, Wartoœæ: repository.Project@3234e239; 
+Klasa: class repository.Task; Metoda: getId; Zwrócony wynik: 1; Czas wykonania [ms]: 0; Argumenty: Brak
 Klasa: class repository.Project; Metoda: getName; Zwrócony wynik: project1; Czas wykonania [ms]: 0; Argumenty: Brak
-Klasa: class repository.Project; Metoda: getTaks; Zwrócony wynik: [repository.Task@64729b1e, repository.Task@10bbd20a]; Czas wykonania [ms]: 0; Argumenty: Brak
+Klasa: class repository.Project; Metoda: addTask; Zwrócony wynik: null; Czas wykonania [ms]: 0; Argumenty: 1. Typ: class repository.Task, Nazwa: task, Wartoœæ: repository.Task@69a3d1d; 
+Klasa: class repository.Task; Metoda: getId; Zwrócony wynik: 2; Czas wykonania [ms]: 0; Argumenty: Brak
+Klasa: class repository.Project; Metoda: getName; Zwrócony wynik: project1; Czas wykonania [ms]: 0; Argumenty: Brak
+Klasa: class repository.Project; Metoda: addTask; Zwrócony wynik: null; Czas wykonania [ms]: 1; Argumenty: 1. Typ: class repository.Task, Nazwa: task, Wartoœæ: repository.Task@86be70a; 
+Klasa: class repository.Task; Metoda: getId; Zwrócony wynik: 3; Czas wykonania [ms]: 0; Argumenty: Brak
+Klasa: class repository.Project; Metoda: getName; Zwrócony wynik: Project2; Czas wykonania [ms]: 0; Argumenty: Brak
+Klasa: class repository.Project; Metoda: addTask; Zwrócony wynik: null; Czas wykonania [ms]: 0; Argumenty: 1. Typ: class repository.Task, Nazwa: task, Wartoœæ: repository.Task@480bdb19; 
+Klasa: class repository.Project; Metoda: getName; Zwrócony wynik: project1; Czas wykonania [ms]: 0; Argumenty: Brak
+Klasa: class repository.Repository; Metoda: addProject; Zwrócony wynik: null; Czas wykonania [ms]: 17117; Argumenty: 1. Typ: class repository.Project, Nazwa: project, Wartoœæ: repository.Project@4923ab24; 
+Klasa: class repository.Project; Metoda: getName; Zwrócony wynik: Project2; Czas wykonania [ms]: 0; Argumenty: Brak
+Klasa: class repository.Repository; Metoda: addProject; Zwrócony wynik: null; Czas wykonania [ms]: 3; Argumenty: 1. Typ: class repository.Project, Nazwa: project, Wartoœæ: repository.Project@757942a1; 
+Klasa: class repository.Project; Metoda: getName; Zwrócony wynik: project1; Czas wykonania [ms]: 0; Argumenty: Brak
+Klasa: class repository.Project; Metoda: getTaks; Zwrócony wynik: [repository.Task@69a3d1d, repository.Task@86be70a]; Czas wykonania [ms]: 0; Argumenty: Brak
 Klasa: class repository.Task; Metoda: getId; Zwrócony wynik: 1; Czas wykonania [ms]: 0; Argumenty: Brak
 Klasa: class repository.Task; Metoda: getDescription; Zwrócony wynik: task1; Czas wykonania [ms]: 0; Argumenty: Brak
-Klasa: class repository.Task; Metoda: getReporter; Zwrócony wynik: repository.Employee@7d70d1b1; Czas wykonania [ms]: 0; Argumenty: Brak
+Klasa: class repository.Task; Metoda: getReporter; Zwrócony wynik: repository.Employee@1a3869f4; Czas wykonania [ms]: 0; Argumenty: Brak
 Klasa: class repository.Employee; Metoda: getName; Zwrócony wynik: user1; Czas wykonania [ms]: 0; Argumenty: Brak
-Klasa: class repository.Task; Metoda: getReporter; Zwrócony wynik: repository.Employee@7d70d1b1; Czas wykonania [ms]: 0; Argumenty: Brak
+Klasa: class repository.Task; Metoda: getReporter; Zwrócony wynik: repository.Employee@1a3869f4; Czas wykonania [ms]: 0; Argumenty: Brak
 Klasa: class repository.Employee; Metoda: getLastName; Zwrócony wynik: user1; Czas wykonania [ms]: 0; Argumenty: Brak
-Klasa: class repository.Task; Metoda: getAssignee; Zwrócony wynik: repository.Employee@7d70d1b1; Czas wykonania [ms]: 0; Argumenty: Brak
+Klasa: class repository.Task; Metoda: getAssignee; Zwrócony wynik: repository.Employee@1a3869f4; Czas wykonania [ms]: 0; Argumenty: Brak
 Klasa: class repository.Employee; Metoda: getName; Zwrócony wynik: user1; Czas wykonania [ms]: 0; Argumenty: Brak
-Klasa: class repository.Task; Metoda: getAssignee; Zwrócony wynik: repository.Employee@7d70d1b1; Czas wykonania [ms]: 0; Argumenty: Brak
+Klasa: class repository.Task; Metoda: getAssignee; Zwrócony wynik: repository.Employee@1a3869f4; Czas wykonania [ms]: 0; Argumenty: Brak
 Klasa: class repository.Employee; Metoda: getLastName; Zwrócony wynik: user1; Czas wykonania [ms]: 0; Argumenty: Brak
 Klasa: class repository.Task; Metoda: getStatus; Zwrócony wynik: NEW; Czas wykonania [ms]: 0; Argumenty: Brak
 Klasa: class repository.Task; Metoda: getId; Zwrócony wynik: 2; Czas wykonania [ms]: 0; Argumenty: Brak
 Klasa: class repository.Task; Metoda: getDescription; Zwrócony wynik: task2; Czas wykonania [ms]: 0; Argumenty: Brak
-Klasa: class repository.Task; Metoda: getReporter; Zwrócony wynik: repository.Employee@7d70d1b1; Czas wykonania [ms]: 0; Argumenty: Brak
-Klasa: class repository.Employee; Metoda: getName; Zwrócony wynik: user1; Czas wykonania [ms]: 1; Argumenty: Brak
-Klasa: class repository.Task; Metoda: getReporter; Zwrócony wynik: repository.Employee@7d70d1b1; Czas wykonania [ms]: 0; Argumenty: Brak
+Klasa: class repository.Task; Metoda: getReporter; Zwrócony wynik: repository.Employee@1a3869f4; Czas wykonania [ms]: 0; Argumenty: Brak
+Klasa: class repository.Employee; Metoda: getName; Zwrócony wynik: user1; Czas wykonania [ms]: 0; Argumenty: Brak
+Klasa: class repository.Task; Metoda: getReporter; Zwrócony wynik: repository.Employee@1a3869f4; Czas wykonania [ms]: 1; Argumenty: Brak
 Klasa: class repository.Employee; Metoda: getLastName; Zwrócony wynik: user1; Czas wykonania [ms]: 0; Argumenty: Brak
-Klasa: class repository.Task; Metoda: getAssignee; Zwrócony wynik: repository.Employee@1a8a8f7c; Czas wykonania [ms]: 0; Argumenty: Brak
+Klasa: class repository.Task; Metoda: getAssignee; Zwrócony wynik: repository.Employee@87f383f; Czas wykonania [ms]: 0; Argumenty: Brak
 Klasa: class repository.Employee; Metoda: getName; Zwrócony wynik: user2; Czas wykonania [ms]: 0; Argumenty: Brak
-Klasa: class repository.Task; Metoda: getAssignee; Zwrócony wynik: repository.Employee@1a8a8f7c; Czas wykonania [ms]: 0; Argumenty: Brak
+Klasa: class repository.Task; Metoda: getAssignee; Zwrócony wynik: repository.Employee@87f383f; Czas wykonania [ms]: 0; Argumenty: Brak
 Klasa: class repository.Employee; Metoda: getLastName; Zwrócony wynik: user2; Czas wykonania [ms]: 0; Argumenty: Brak
 Klasa: class repository.Task; Metoda: getStatus; Zwrócony wynik: NEW; Czas wykonania [ms]: 0; Argumenty: Brak
-Klasa: class repository.ProjectExporter; Metoda: exportTasks; Zwrócony wynik: null; Czas wykonania [ms]: 5; Argumenty: 1. Typ: class java.io.PrintStream, Nazwa: printStream, Wartoœæ: java.io.PrintStream@436e852b; 2. Typ: class java.util.LinkedList, Nazwa: tasks, Wartoœæ: [repository.Task@64729b1e, repository.Task@10bbd20a]; 
 Klasa: class repository.Project; Metoda: getDocuments; Zwrócony wynik: []; Czas wykonania [ms]: 0; Argumenty: Brak
-Klasa: class repository.ProjectExporter; Metoda: exportDocuments; Zwrócony wynik: null; Czas wykonania [ms]: 0; Argumenty: 1. Typ: class java.io.PrintStream, Nazwa: printStream, Wartoœæ: java.io.PrintStream@436e852b; 2. Typ: class java.util.LinkedList, Nazwa: documents, Wartoœæ: []; 
-Klasa: class repository.ProjectExporter; Metoda: export; Zwrócony wynik: null; Czas wykonania [ms]: 9; Argumenty: 1. Typ: class repository.Project, Nazwa: project, Wartoœæ: repository.Project@ea1a8d5; 2. Typ: class java.io.PrintStream, Nazwa: printStream, Wartoœæ: java.io.PrintStream@436e852b; 
-Klasa: class repository.Main; Metoda: main; Zwrócony wynik: null; Czas wykonania [ms]: 72; Argumenty: 1. Typ: class [Ljava.lang.String;, Nazwa: args, Wartoœæ: [Ljava.lang.String;@32d2fa64; 
+Klasa: class repository.Main; Metoda: main; Zwrócony wynik: null; Czas wykonania [ms]: 17237; Argumenty: 1. Typ: class [Ljava.lang.String;, Nazwa: args, Wartoœæ: [Ljava.lang.String;@b7dd107; 

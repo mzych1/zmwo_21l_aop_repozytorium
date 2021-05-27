@@ -10,7 +10,7 @@ public class Repository implements Serializable {
 	
 	private static final long serialVersionUID = 1L;
 	
-	private HashMap<String, Project> projects;
+	public HashMap<String, Project> projects;
 
 	public Repository() {
 		this.projects = new HashMap<String, Project>();

@@ -7,13 +7,14 @@ import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.io.Serializable;
+
 import repository.*;
 
 public aspect SaveRepositoryAspect {
 	declare parents: Repository implements Serializable;
 	
 	pointcut creation():
-		execution(public Repository.new())
+		call(public Repository.new())
 		&& !within(SaveRepositoryAspect);
 
 	pointcut modification():
@@ -23,9 +24,12 @@ public aspect SaveRepositoryAspect {
 	
 	after(): modification(){
 		Repository repo = (Repository) thisJoinPoint.getTarget();
-		try (ObjectOutputStream outputStream = new ObjectOutputStream(
-				new FileOutputStream("serialized_repository.bin"))) {
-		    outputStream.writeObject(repo);
+		try {
+		    FileOutputStream fileOutputStream = new FileOutputStream("serialized_repository.bin");
+		    ObjectOutputStream objectOutputStream = new ObjectOutputStream(fileOutputStream);
+		    objectOutputStream.writeObject(repo);
+		    objectOutputStream.close();
+		    fileOutputStream.close();
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
@@ -33,8 +37,12 @@ public aspect SaveRepositoryAspect {
 	
 	Object around(): creation(){
 		Repository repo = null;
-		try (ObjectInputStream inputStream = new ObjectInputStream(new FileInputStream("serialized_repository.bin"))) {
-			repo = (Repository) inputStream.readObject();
+		try {
+			FileInputStream fileInputStream = new FileInputStream("serialized_repository.bin");
+		    ObjectInputStream objectInputStream = new ObjectInputStream(fileInputStream);
+		    repo = (Repository) objectInputStream.readObject();
+		    objectInputStream.close();
+		    fileInputStream.close();
 			
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
@@ -43,7 +51,6 @@ public aspect SaveRepositoryAspect {
 		} catch (ClassNotFoundException e) {
 			e.printStackTrace();
 		}
-		
-		return repo;
+		return (Repository)repo;
 	}
 }
